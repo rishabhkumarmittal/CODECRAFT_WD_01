@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productify - Productivity App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">Productify</div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#features" class="nav-item">Features</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+        <li><button id="mode-toggle">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Scroll to top -->
+  <button id="scrollToTop">↑</button>
+
+  <!-- Hero Section -->
+  <section id="home" class="animate">
+    <h1>Welcome to <span>Productify</span></h1>
+    <p>Organize your work and life, seamlessly.</p>
+    <a href="#features" class="cta-button">Explore Features</a>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="animate">
+    <h2>Our Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Task Manager</h3>
+        <p>Create, assign, and complete tasks effortlessly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Calendar Sync</h3>
+        <p>Keep your events and deadlines in one place.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Real-time Collaboration</h3>
+        <p>Work with your team in real time from anywhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="animate">
+    <h2>About Productify</h2>
+    <div class="about-container">
+      <img src="https://source.unsplash.com/400x300/?team,office" alt="Team" />
+      <div class="about-text">
+        <p>Productify is your go-to app for productivity. Whether it's solo work or team efforts, we help you stay on track, always.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="animate">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
